@@ -9,7 +9,7 @@ st.set_page_config(page_title="Telco Churn", layout="centered")
 
 st.title("Telco Customer Churn Prediction")
 
-df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
+df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn (1).csv")
 
 df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce")
 df = df.dropna()
