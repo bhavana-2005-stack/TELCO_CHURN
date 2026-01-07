@@ -26,7 +26,7 @@ st.title("📊 Logistic Regression")
 st.caption("Predict Customer Churn using Telco Customer Data")
 
 # ---------- LOAD DATA ----------
-df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
+df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn (1).csv")
 df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce")
 df = df.dropna()
 
